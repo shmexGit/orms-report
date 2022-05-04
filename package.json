@@ -11,5 +11,8 @@
     "@slidev/theme-seriph": "*",
     "slidev-theme-dualboot": "^0.1.3"
   },
-  "name": "orms-report"
+  "name": "orms-report",
+  "devDependencies": {
+    "playwright-chromium": "^1.21.1"
+  }
 }
