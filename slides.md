@@ -3,21 +3,22 @@ theme: dualboot
 layout: intro
 ---
 
-# Сравнение NodeJS ORM (microom/typeorm/sequelize/ObjectionJS/Prisma)
+## Сравнение NodeJS ORM (microom/typeorm/sequelize/ObjectionJS/Prisma)
 
-<div class="abs-br m-6 flex gap-2">
+<div class="orms-logo">
+  <img src="/logo/microorm_logo.png" class="m-5 w-20 h-20"/>
+  <img src="/logo/typeorm_logo.png" class="m-5 w-20 h-20"/>
+  <img src="/logo/sequelize_logo.png" class="m-5 w-20 h-20"/>
+  <img src="/logo/obj_logo.svg" class="m-5 w-20 h-20"/>
+  <img src="/logo/prisma_logo.png" class="m-5 w-20 h-20"/>
+</div>
+
+<div>
   <a href="https://github.com/shmexGit/orms-report" target="_blank" alt="GitHub"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
 </div>
-
-<style>
-h1 {
-  color: white;
-  font-size: 20px;
-}
-</style>
 
 ---
 
@@ -74,8 +75,8 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
 ---
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+layout: image
+image: ./background/first_slide.jpg
 ---
 
 # Code
@@ -280,67 +281,6 @@ $$
 <br>
 
 [Learn more](https://sli.dev/guide/syntax#latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
 
 ---
 layout: center

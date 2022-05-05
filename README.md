@@ -1,7 +1,15 @@
-# Презентация на тему "Сравнение NodeJS ORM (microom/typeorm/sequelize/ObjectionJS/Prisma)"
+## Report for my team
 
-Запуск презентации:
+---
+
+### Topic
+Comparison NodeJS ORM (microom/typeorm/sequelize/ObjectionJS/Prisma)
+
+### Run:
 
 - `npm install`
 - `npm run dev`
-- visit http://localhost:3030
+
+### Export
+
+Presentation address after launch: [link](http://localhost:3030)
