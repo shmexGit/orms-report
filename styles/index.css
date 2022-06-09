@@ -4,3 +4,38 @@
   flex-direction: row;
   justify-content: center;
 }
+
+.pattern-imgs {
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  top: 120px;
+  right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pattern-imgs > img {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 25px !important;
+}
+
+h2 {
+  font-size: 21px !important;
+}
+
+h3 {
+  font-size: 17px !important;
+}
+
+h4 {
+  font-size: 13px !important;
+}
+
+html {
+  font-size: 10px !important;
+}

@@ -3,7 +3,7 @@
 ---
 
 ### Topic
-Comparison NodeJS ORM (microom/typeorm/sequelize/ObjectionJS/Prisma)
+NodeJS ORMs (Typeorm/Mikro-orm/Prisma/Sequelize/Objection/)
 
 ### Run:
 
