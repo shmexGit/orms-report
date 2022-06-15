@@ -9,7 +9,3 @@ NodeJS ORMs (Typeorm/Mikro-orm/Prisma/Sequelize/Objection/)
 
 - `npm install`
 - `npm run dev`
-
-### Export
-
-Presentation address after launch: [link](http://localhost:3030)
